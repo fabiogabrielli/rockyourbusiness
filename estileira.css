@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr;
+    background-color: white;
+}
+
+/* LOGO */
+.div_logo {
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.logo {
+    height: 80%;
+}
+
+/* LINKS */
+.nav {
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav li {
+    display: inline;
+    font-size: 0.8rem;
+}
+
+.nav  ul  li  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-left: 20px;
+}
+
+.cadastro {
+    font-size: 0.8rem;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cadastro:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+
+}
+
+/* LOGIN */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    margin-right: 10px;
+    font-size: 0.8rem;
+}
+
+.login-form button {
+    padding: 5px 15px;
+    background-color: #f5a623;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #f89c42;
+}
