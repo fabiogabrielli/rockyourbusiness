@@ -1,40 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estileira.css" media="screen" />
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-</style>
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0cb18bf594.js" crossorigin="anonymous"></script>
+    <title>Rock Your Business</title>
 </head>
 <body>
 
-    <header class="header">
-        <div class="div_logo">
-            <img class="logo" src="imgs/logotipoRYB.svg">
-        </div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#home">Sobre Nós</a></li>
-                <li><a href="#home">Como Funciona</a></li>
-                <li><a href="#home">Produtos e Serviços</a></li>
-            </ul>
-            <button class="cadastro">CADASTRE-SE</button>
-</nav>
-        <div class="login">
-        <div class="login-form">
-            <input type="text" placeholder="Usuário" name="username">
-            <input type="password" placeholder="Senha" name="password">
-            <button>LOGIN</button>
-        </div>
-        </div>
-    </header>
-    
-    <?php
-        echo "vamos testando live server.";
-    ?>
+<header class="header">
+    <img src="imgs/logotipoRYB.svg" alt="LOGOTIPO ROCK YOUR BUSINESS">
+</header>
+
+<main>
+    <h1>Um marketplace de negócios</h1>
+    <h4>Escale seus negócios trabalhando com sua carteira de clientes</h4>
+</main>
+
+<div class="secProdutos">
+    <div class="produto">
+        <div class="imgProduto"></div>
+        <h2 class="titProduto">Título Produto</h2>
+        <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
+        <button>SAIBA MAIS</button>
+    </div>
+    <div class="produto">
+        <div class="imgProduto"></div>
+        <h2 class="titProduto">Título Produto</h2>
+        <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
+        <button>SAIBA MAIS</button>
+    </div>
+    <div class="produto">
+        <div class="imgProduto"></div>
+        <h2 class="titProduto">Título Produto</h2>
+        <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
+        <button>SAIBA MAIS</button>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+<!-- Scripts do Bootstrap e suas dependências -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>

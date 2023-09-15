@@ -1,96 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}  
+
 body {
     padding: 0;
-    margin: 0;
+    margin: 0; 
     box-sizing: border-box;
-    background-color: lightgray;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-/* HEADER */
-.header {
+
+/* ----------HEADER---------- */
+header {
+    background-color: black;
+    height: 7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+}
+
+header > img {
+    height: 70%;
+}
+
+/* ----------MAIN---------- */
+main {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/executivos.png);
+    background-size: cover;
+    background-position: center;
+    height: 53vh;
+    width: 100vw;
+    padding: 5%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main h1{
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+main h4 {
+    margin: 0;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* ----------PRODUTOS---------- */
+.secProdutos {
     display: grid;
-    grid-template-columns: 1fr 5fr 3fr;
-    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 5% 5%;
+    max-width: 1200px;
 }
 
-/* LOGO */
-.div_logo {
-    max-height: 50px;
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
+.produto {
+    height: 100%;
 }
 
-.logo {
-    height: 80%;
+.imgProduto {
+    background-image: url("https://corretor.axa.com.br/wp-content/uploads/2023/05/MicrosoftTeams-image-40.jpg");
+    height: 150px;
+    background-size: cover;
 }
 
-/* LINKS */
-.nav {
-    max-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav li {
-    display: inline;
-    font-size: 0.8rem;
-}
-
-.nav  ul  li  a {
-    text-decoration: none;
+.titProduto {
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.8rem;
     color: black;
+}
+
+.descProduto {
     font-weight: 300;
-    margin-left: 20px;
+    font-size: 0.9rem;
+    color: black;
 }
 
-.cadastro {
-    font-size: 0.8rem;
-    background-color: green;
-    border: none;
-    border-radius: 50px;
-    padding: 5px 20px;
-    margin-left: 100px;
-    text-decoration: none;
+.produto button {
+    padding: 7px 20px;
+    border: 2px solid black;
+    font-size: 0.7rem;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.produto button:hover {
+    background-color: black;
     color: white;
-    cursor: pointer;
 }
 
-.cadastro:hover {
-    background-color: white;
-    color: green;
-    border: 1px solid green;
+   /*tablet*/ @media screen and (min-width: 601px) and (max-width: 1024px) { 
 
-}
+    .secProdutos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 5% 5%;
+    }    
 
-/* LOGIN */
-.login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .titProduto {
+        margin-top: 20px;
+        font-weight: 600;
+        padding: 0;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        color: black;
+    }
+    
+    .descProduto {
+        font-weight: 300;
+        font-size: 0.8rem;
+        color: black;
+    }
+    
+   }
 
-.login-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+   /*mobile*/ @media screen and (max-width: 600px) { 
 
-.login-form input[type="text"],
-.login-form input[type="password"] {
-    margin-right: 10px;
-    font-size: 0.8rem;
-}
-
-.login-form button {
-    padding: 5px 15px;
-    background-color: #f5a623;
-    border-radius: 50px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.login-form button:hover {
-    background-color: #f89c42;
-}
+    .secProdutos {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 5% 5%;
+    }    
+    
+   }
