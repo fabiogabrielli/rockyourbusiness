@@ -20,7 +20,7 @@ body {
 /* ----------HEADER---------- */
 header {
     background-color: black;
-    height: 7vh;
+    height: 10vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ header > img {
     }
     
     header > img {
-        height: 70%;
+        height: 80%;
     } 
     
    }

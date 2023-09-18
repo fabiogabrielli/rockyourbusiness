@@ -22,23 +22,24 @@
 <div class="secProdutos">
     <div class="produto">
         <div class="imgProduto"></div>
-        <h2 class="titProduto">Título Produto</h2>
+        <h2 class="titProduto">Título Produto 1</h2>
         <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
         <button>SAIBA MAIS</button>
     </div>
     <div class="produto">
         <div class="imgProduto"></div>
-        <h2 class="titProduto">Título Produto</h2>
+        <h2 class="titProduto">Título Produto 2</h2>
         <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
         <button>SAIBA MAIS</button>
     </div>
     <div class="produto">
         <div class="imgProduto"></div>
-        <h2 class="titProduto">Título Produto</h2>
+        <h2 class="titProduto">Título Produto 3</h2>
         <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
         <button>SAIBA MAIS</button>
     </div>
 </div>
+
 
 
 <script src="script.js"></script>
