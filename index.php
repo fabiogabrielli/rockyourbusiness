@@ -11,15 +11,16 @@
 <body>
 
 <header class="header">
-    <img src="imgs/logotipoRYB.svg" alt="LOGOTIPO ROCK YOUR BUSINESS">
+    <img src="imgs/3.svg" alt="LOGOTIPO ROCK YOUR BUSINESS">
 </header>
 
 <main>
     <h1>Um marketplace de negócios</h1>
     <h4>Escale seus negócios trabalhando com sua carteira de clientes</h4>
+    <button>CADASTRE-SE</button>
 </main>
 
-<div class="secProdutos">
+<section class="secProdutos">
     <div class="produto">
         <div class="imgProduto"></div>
         <h2 class="titProduto">Título Produto 1</h2>
@@ -38,7 +39,77 @@
         <h6 class="descProduto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
         <button>SAIBA MAIS</button>
     </div>
-</div>
+</section>
+
+<section class="secDestaques">
+    <div class="destaque01">
+        <p class="titSection">DESTAQUE</p>
+        <h2 class="titDestaque">Gestão dos seus investimentos</h2>
+        <h6 class="descDestaque">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
+        <button>SAIBA MAIS</button>
+    </div>
+    <div class="destaque02">
+        <p class="titSection">DESTAQUE</p>
+        <h2 class="titDestaque">Reduza a carga tributária dos seus clientes </h2>
+        <h6 class="descDestaque">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </h6>
+        <button>SAIBA MAIS</button>
+    </div>
+</section>
+
+<section class="secAdv">
+    <h1>Vá além</h1>
+    <h5>Escale suas vendas. Potencialize seus negócios. </h5>
+</section>
+
+<section class="secDiferenciais">
+    <div class="divDiferenciais">
+        <div class="diferenciais">
+            <h1>Titulo</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div class="imgDiferecial"></div>
+            <button>SAIBA MAIS</button>
+        </div>
+        <div class="diferenciais">
+            <h1>Titulo</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div class="imgDiferecial"></div>
+            <button>SAIBA MAIS</button>
+        </div>
+        <div class="diferenciais">
+            <h1>Titulo</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div class="imgDiferecial"></div>
+            <button>SAIBA MAIS</button>
+        </div>
+        <div class="diferenciais">
+            <h1>Titulo</h1>
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <div class="imgDiferecial"></div>
+            <button>SAIBA MAIS</button>
+        </div>
+    </div>
+</section>
+
+<section class="cont-fluid">
+    <div class="cont">
+        <div class="prod">TESTE</div>
+        <div class="prod">TESTE</div>
+        <div class="prod">TESTE</div>
+        <div class="prod">TESTE</div>
+    </div>
+</section>
+
+</section>
+
+
+<!-- ICONE CHAT -->
+<section class="secChat">
+    <div class="iconChat">
+        <h6>CHAT</h6>
+        <i class="fa-solid fa-message"></i>
+    </div>
+</section>
+
 
 
 

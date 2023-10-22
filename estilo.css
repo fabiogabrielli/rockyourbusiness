@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+:root {
+    --corPrincipal: #003c7b;
+    --corSecundaria: #1877f2;
+    --corDestaque: green;
+    --roundRadius: 6px;
+}
+
+
+/* LOGIN */
+.mainStage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.loginStage {
+    width: 340px;
+    padding: 30px 30px;
+    background-color: #fff;
+    border-radius: var(--roundRadius);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.loginStage img {
+    width: 80%;
+    margin-bottom: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.loginStage input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc7d8;
+    border-radius: var(--roundRadius);
+    font-size: 13px;
+}
+
+#btnSubmit{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--corSecundaria);
+    color: #fff;
+    border: none;
+    border-radius: var(--roundRadius);
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.loginStage a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 12px;
+}
+
+.loginStage a:hover {
+    font-weight: 500;
+}
+
+.loginStage hr {
+    border-top: 2px solid grey;
+    margin: 0;
+    padding: 0;
+}
+
+#btnCadastro {
+    width: 60%;
+    align-self: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: var(--corDestaque);
+    color: #fff;
+    border: none;
+    border-radius: var(--roundRadius);
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 200;
+}
+
+/* CADASTRO */
+
+.cadastroStage {
+    border: 1px solid black;
+    border-radius: var(--roundRadius);
+    background-color: white;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.cadastroStage input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.cadastroStage input {
+    width: 100%;
+    border: 0 none;
+    border-bottom: 1px solid grey;
+}
+
+#resultado {
+    display: block;
+}
