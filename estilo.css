@@ -121,5 +121,5 @@ body, html {
 }
 
 #resultado {
-    display: block;
+    display: none;
 }
